@@ -2,6 +2,7 @@ import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { ordered, restocked } from './cakeSlice'
 //this is the testing for git push
+//second testing
 
 export const CakeView = () => {
     const numOfCakes = useSelector((state)=>state.cake.numOfCake)
